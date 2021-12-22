@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>салон ОПТИКА</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+
+            <div class="wrapper">
+                <a href="/SARYCHEV-PROJECT/" class="logo header__logo">
+                    OPTIKA
+                </a>
+                <nav class="header__nav">
+                    <a href="#section-about" class="header__link">О нас</a>
+                    <a href="#section-brands" class="header__link">Бренды</a>
+                    <a href="#section-catalog" class="header__link">Каталог</a>
+                    <a href="#section-sale" class="header__link">Акции</a>
+                    <a href="#section-contacts" class="header__link">Контакты</a>
+                    <a href="#section-feedback" class="header__link">Обратная связь</a>
+                </nav>
+                <button class="burger"></button>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="section-offer">
+            <div class="container">
+                <div class="offer">
+                    <h1 class="offer__title">Доверьтесь профессионалам!</h1>
+                    <p class="offer__text">Низкие цены и высокий уровень обслуживания в&nbsp;нашем салоне</p>
+                </div>
+            </div>
+        </section>
+        <section class="section-about">
+            <div class="container">
+                <h2 class="title">О нас</h2>
+
+                <div class="wrapper">
+
+                    <p class="text">
+                        Мы - команда профессионалов.... Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Excepturi quae qui impedit optio harum, debitis aspernatur. Porro excepturi ipsa reprehenderit,
+                        vero aliquam temporibus sed facere, fuga beatae et dolores explicabo.
+                        Sed reprehenderit incidunt et minus itaque dolore quidem, ex voluptas cupiditate reiciendis
+                        molestias enim assumenda iusto quam, odio officia a laudantium voluptatibus est praesentium
+                        illum. Facilis odit possimus vero nostrum.
+                    </p>
+
+                    <img class="doctor-img" src="img/profi.jpg" alt="">
+
+                </div>
+            </div>
+        </section>
+        <section class="section-brands">
+            <div class="container">
+                <h2 class="title">Бренды</h2>
+            </div>
+
+            <div class="brands">
+                <div class="brand">
+                    <img src="img/brand-1.png" alt="">
+                </div>
+                <div class="brand">
+                    <img src="img/brand-2.png" alt="">
+                </div>
+                <div class="brand">
+                    <img src="img/brand-3.png" alt="">
+                </div>
+                <div class="brand">
+                    <img src="img/brand-4.png" alt="">
+                </div>
+                <div class="brand">
+                    <img src="img/brand-5.png" alt="">
+                </div>
+            </div>
+
+        </section>
+        <section class="section-catalog">
+            <div class="container">
+                <h2 class="title">Каталог</h2>
+                <div class="grid">
+                    <div class="wrapper">
+                        <div class="search">
+                            <input type="search" placeholder="Поиск..">
+                            <button class="search__button">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <rect width="24" height="24" fill="url(#pattern0)" />
+                                    <defs>
+                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_10_46" transform="scale(0.00195312)" />
+                                        </pattern>
+                                        <image id="image0_10_46" width="512" height="512"
+                                            xlink:href="data:image/png;base64,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" />
+                                    </defs>
+                                </svg>
+                            </button>
+                            
+                        </div>
+                        <div class="ordering">
+                            <span class="active">По популярности</span>
+                            <span>По цене ↑</span>
+                            <span>По цене ↓</span>
+                        </div>
+                        <div class="filter-button">
+                            <img src="img/filter.png" alt="">
+                        </div>
+                    </div>
+                    <aside class="filters">
+                        <div class="filters__close">
+                            <svg width="45" height="40" viewBox="0 0 45 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_14_104)">
+                                    <line x1="1.70711" y1="-0.707107" x2="43.7071" y2="41.2929" stroke="white" stroke-opacity="0.7"
+                                        stroke-width="2" />
+                                    <line x1="0.292893" y1="41.2929" x2="42.2929" y2="-0.707106" stroke="white" stroke-opacity="0.7"
+                                        stroke-width="2" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_14_104">
+                                        <rect width="45" height="40" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="filter">
+                            <div class="filter__header">
+                                <span>Категории</span>
+                                <div class="filter__arrow">
+                                    <svg width="22" height="12" viewBox="0 0 22 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21 1L11 11L1 1" stroke="black" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="filter__body">
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="cat-1" id="cat-1">
+                                        <label for="cat-1">
+                                            Категория 1
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="cat-2" id="cat-2">
+                                        <label for="cat-2">
+                                            Категория 2
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="cat-3" id="cat-3">
+                                        <label for="cat-3">
+                                            Категория 3
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter">
+                            <div class="filter__header">
+                                <span>Цена</span>
+                                <div class="filter__arrow">
+                                    <svg width="22" height="12" viewBox="0 0 22 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21 1L11 11L1 1" stroke="black" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="filter__body">
+                                <div class="range">
+                                    <div class="range__indicators">
+                                        <div class="range__indicator">
+                                            0 ₽
+                                        </div>
+                                        <div class="range__indicator"></div>
+                                    </div>
+                                    <input type="range" value="0" min="0" max="100000" name="price">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter">
+                            <div class="filter__header">
+                                <span>Пол</span>
+                                <div class="filter__arrow">
+                                    <svg width="22" height="12" viewBox="0 0 22 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21 1L11 11L1 1" stroke="black" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="filter__body">
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="sex-1" id="sex-1">
+                                        <label for="sex-1">
+                                            Мужчины
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="sex-2" id="sex-2">
+                                        <label for="sex-2">
+                                            Женщины
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter">
+                            <div class="filter__header">
+                                <span>Бренды</span>
+                                <div class="filter__arrow">
+                                    <svg width="22" height="12" viewBox="0 0 22 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21 1L11 11L1 1" stroke="black" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="filter__body">
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="brand-1" id="brand-1">
+                                        <label for="brand-1">
+                                            POLAROID
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="brand-2" id="brand-2">
+                                        <label for="brand-2">
+                                            RAY-BAN
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="brand-3" id="brand-3">
+                                        <label for="brand-3">
+                                            VERSACE
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="brand-4" id="brand-4">
+                                        <label for="brand-4">
+                                            ARMANI
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="brand-5" id="brand-5">
+                                        <label for="brand-5">
+                                            VALENTINO
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="brand-6" id="brand-6">
+                                        <label for="brand-6">
+                                            RAY-BAN
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="filter__item">
+                                    <div class="checkbox">
+                                        <input type="checkbox" value="brand-7" id="brand-7">
+                                        <label for="brand-7">
+                                            POLAROID
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                    <div class="catalog">
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="img/glasses-1.jpg" alt="">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Очки Ray-Ban</h3>
+                                <p class="card__model">
+                                    Model modelname
+                                </p>
+                                <div class="card__price">
+                                    <span>8 550 ₽</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="img/glasses-2.jpg" alt="">
+                            </div>
+                            <div class="card__badge">
+                                <span>%</span>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Очки Gevance</h3>
+                                <p class="card__model">
+                                    Model modelname
+                                </p>
+                                <div class="card__price card__price--sale">
+                                    <span>7 200 ₽</span>
+                                    <span>8 550 ₽</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="img/glasses-3.jpg" alt="">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Очки Polaroid</h3>
+                                <p class="card__model">
+                                    Model modelname
+                                </p>
+                                <div class="card__price">
+                                    <span>8 550 ₽</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="img/glasses-2.jpg" alt="">
+                            </div>
+                            <div class="card__badge">
+                                <span>%</span>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Очки Gevance</h3>
+                                <p class="card__model">
+                                    Model modelname
+                                </p>
+                                <div class="card__price card__price--sale">
+                                    <span>7 200 ₽</span>
+                                    <span>8 550 ₽</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="img/glasses-1.jpg" alt="">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Очки Ray-Ban</h3>
+                                <p class="card__model">
+                                    Model modelname
+                                </p>
+                                <div class="card__price">
+                                    <span>8 550 ₽</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="img/glasses-3.jpg" alt="">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Очки Polaroid</h3>
+                                <p class="card__model">
+                                    Model modelname
+                                </p>
+                                <div class="card__price">
+                                    <span>8 550 ₽</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="img/glasses-1.jpg" alt="">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Очки Ray-Ban</h3>
+                                <p class="card__model">
+                                    Model modelname
+                                </p>
+                                <div class="card__price">
+                                    <span>8 550 ₽</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="img/glasses-2.jpg" alt="">
+                            </div>
+                            <div class="card__badge">
+                                <span>%</span>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Очки Gevance</h3>
+                                <p class="card__model">
+                                    Model modelname
+                                </p>
+                                <div class="card__price card__price--sale">
+                                    <span>7 200 ₽</span>
+                                    <span>8 550 ₽</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="img/glasses-3.jpg" alt="">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Очки Polaroid</h3>
+                                <p class="card__model">
+                                    Model modelname
+                                </p>
+                                <div class="card__price">
+                                    <span>8 550 ₽</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="catalog__more">Показать еще</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-sale">
+            <div class="container">
+                <h2 class="title">Акции</h2>
+                <div class="sales">
+                    <a href="#" class="sale">
+                        <img src="img/sale.jpg" alt="" class="sale__img">
+                        <div class="sale__content">
+                            <h3 class="sale__title">Название акции</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="sale">
+                        <img src="img/sale.jpg" alt="" class="sale__img">
+                        <div class="sale__content">
+                            <h3 class="sale__title">Название акции</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="sale">
+                        <img src="img/sale.jpg" alt="" class="sale__img">
+                        <div class="sale__content">
+                            <h3 class="sale__title">Название акции</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="sale">
+                        <img src="img/sale.jpg" alt="" class="sale__img">
+                        <div class="sale__content">
+                            <h3 class="sale__title">Название акции</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="sale">
+                        <img src="img/sale.jpg" alt="" class="sale__img">
+                        <div class="sale__content">
+                            <h3 class="sale__title">Название акции</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="sale">
+                        <img src="img/sale.jpg" alt="" class="sale__img">
+                        <div class="sale__content">
+                            <h3 class="sale__title">Название акции</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section-contacts">
+            <div class="container">
+                <h2 class="title">Контакты</h2>
+                <div class="contact">
+                    <p class="contact__text contact__text--title">Номера телефонов для связи:</p>
+                    <a class="contact__text" href="tel:+79530000000">8 (953) 000 00 00</a>
+                    <a class="contact__text" href="tel:+79530001023">8 (953) 000 10 23</a>
+                    <p class="contact__text contact__text--title">Рабочий адрес электронной почты
+                    <p>
+                        <a class="contact__text" href="mailto:cuteglasses@info.ru">cuteglasses@info.ru</a>
+                    <p class="contact__text contact__text--title">Мы в социальных сетях
+                    <p>
+                    <div class="socials">
+                        <a class="socials__link" target="_blank" href="#">
+                            <img src="img/soc-1.svg" alt="" class="socials__icon">
+                        </a>
+                        <a class="socials__link" target="_blank" href="#">
+                            <img src="img/soc-2.svg" alt="" class="socials__icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="map">
+                <img src="img/map.jpg" alt="">
+            </div>
+
+        </section>
+        <section class="section-feedback">
+            <div class="container">
+                <h2 class="title">Обратная связь</h2>
+                <p class="text">Оставьте заявку и мы свяжемся с вами в&nbsp;ближайшее время</p>
+                <form action="." method="post" class="form-feedback">
+                    <div class="form-group">
+                        <input type="text" placeholder="Имя" name="name">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Фамилия" name="surname">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="E-mail" name="email">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Номер телефона" name="tel">
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper">
+                <a href="/SARYCHEV-PROJECT/" class="logo">OPTIKA</a>
+                <nav class="footer__nav">
+                    <a href="#section-about" class="footer__link">О нас</a>
+                    <a href="#section-brands" class="footer__link">Бренды</a>
+                    <a href="#section-catalog" class="footer__link">Каталог</a>
+                    <a href="#section-sale" class="footer__link">Акции</a>
+                    <a href="#section-contacts" class="footer__link">Контакты</a>
+                    <a href="#section-feedback" class="footer__link">Обратная связь</a>
+                </nav>
+                <div class="footer__contacts contact">
+                    <a class="contact__text" href="tel:+79530000000">8 (953) 000 00 00</a>
+                    <a class="contact__text" href="tel:+79530001023">8 (953) 000 10 23</a>
+                    <a class="contact__text" href="mailto:cuteglasses@info.ru">cuteglasses@info.ru</a>
+                </div>
+                <div class="break"></div>
+                <a href="#" class="policy">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal modal-sale">
+        <div class="modal__dialog">
+            <div class="modal__close">
+                <svg width="45" height="40" viewBox="0 0 45 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_14_104)">
+                        <line x1="1.70711" y1="-0.707107" x2="43.7071" y2="41.2929" stroke="white" stroke-opacity="0.7"
+                            stroke-width="2" />
+                        <line x1="0.292893" y1="41.2929" x2="42.2929" y2="-0.707106" stroke="white" stroke-opacity="0.7"
+                            stroke-width="2" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_14_104">
+                            <rect width="45" height="40" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            <div class="modal__img">
+                <img src="img/sale.jpg" alt="">
+            </div>
+            <div class="modal__content">
+                <h3 class="modal__title">Название акции</h3>
+                <p class="modal__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium, nibh turpis
+                    erat pulvinar risus urna, ipsum quis. Nisl felis vestibulum praesent est justo fermentum ut urna
+                    odio. Diam, ipsum scelerisque magnis velit sed vitae. Purus ultricies amet tristique egestas. In
+                    pretium vulputate suscipit cum quis. Ipsum quis hendrerit bibendum morbi. Mauris mus pharetra
+                    faucibus sagittis id nec nisl mollis. Sed amet volutpat fermentum justo. Nunc sed lorem risus lectus
+                    porta risus. Ipsum nascetur aliquam integer mollis mauris. Maecenas malesuada rhoncus tortor, sapien
+                    eget mi. Arcu egestas et gravida aenean luctus. Habitasse ut mauris scelerisque maecenas sit
+                    dignissim euismod amet. A quis amet et vel urna ipsum felis bibendum...
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
